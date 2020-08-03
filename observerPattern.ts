@@ -65,7 +65,7 @@ export function run() {
 
 
 
-export class Subject{
+export class CustomObservable{
   subscriberList: Array<Function>;
   constructor() {
     this.subscriberList = [];
