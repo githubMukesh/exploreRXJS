@@ -3,6 +3,7 @@ import { map } from 'rxjs/operators';
 import {CustomObservable, run}  from './observerPattern';
 import './style.css';
 import './hotvsCold';
+import './pullvsPush';
 // How to create plane obserable
 
 

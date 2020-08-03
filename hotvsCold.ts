@@ -27,6 +27,6 @@ const mouse$ = fromEvent(document, 'click').pipe(map((event: MouseEvent) => ({ c
 setTimeout(() => {
   console.log('Start sub2');
   const mouseSub2 = mouse$.subscribe(val => {
-    console.log('mouseSub2:', val);
+    console.log('mouseSub2After4000:', val);
   });
 }, 4000);
